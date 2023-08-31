@@ -1,0 +1,367 @@
+*, *:after, *:before{
+    box-sizing: border-box;
+}
+body {
+    background-color: #292929;
+    color: white;
+    margin: 0;
+}
+.header{
+    margin-top: 50px;
+}
+.header_description{
+    font-size: 12px;
+    letter-spacing: 0.12px;
+}
+.text_color_red {
+    color: #ff3469;
+}
+.header_phone{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: right;
+    font-weight: 500;
+    display: block;
+}
+.header_info{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 7px;
+    display: block;
+    text-align: right;
+}
+.callback{
+    text-align: right;
+    color: #ff3469;
+    display: block;
+    margin-top: 16px;
+    font-size: 16px;
+}
+.hero{
+    padding-top: 100px;
+    padding-bottom: 77px;
+    text-align: center;
+    border-bottom: 1px solid #4c4c4c;
+}
+.hero_title{
+    font-size: 34px;
+    margin-bottom: 34px;
+    text-transform: uppercase;
+    line-height: normal;
+    letter-spacing: 0.34px;
+}
+.hero_discription{
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.18px;
+    line-height: 1.4;
+   
+}
+.flowers_slider{
+    margin-bottom: 83px;
+    width: 100%;
+    text-align: center;
+    margin-top: 87px;
+}
+:root {
+    --swiper-navigation-size: 20px;
+}
+.hero_call_text{
+    display: block;
+    font-size: 19px;
+    text-transform: uppercase;
+    margin-bottom: 36px;
+}
+.button{
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color:#ffffff;
+    background-color: #ff2e55;
+    padding-top: 30px;
+    padding-bottom: 26px;
+    padding-left: 65px;
+    padding-right: 65px;
+    margin-top: 36px;
+    cursor: pointer;
+    border: none;
+}
+.reviews{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.review_slide{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.reviews_slider{
+    margin-top: 98px;
+}
+.review_image{
+    width: 220px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    font-size: 20px;
+    position: relative;
+    margin-right: 52px;
+}
+.review_image:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+}
+.review_image > * {
+    position: relative;
+}
+.review_image_1{
+    background:#000 url(../img/review.png);
+}
+.review_name{
+    margin-bottom: 7px;
+}
+.review_text{
+    font-size: 18px;
+    letter-spacing: 0.18px;
+    line-height: 1.4;
+}
+.review_link{
+    color: #f24841;
+}
+.section_title{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.3px;
+}
+.advantages{
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    border-bottom: 1px solid #4c4c4c;
+}
+.advantages_wrapper{
+    min-height: 85px;
+    margin-bottom: 30px;
+}
+.advantages_title{
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 1.4;
+    max-width: 270px;
+    margin: auto;
+}
+.goods{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section_description{
+    font-size: 19px;
+    text-align: center;
+}
+.card{
+    text-align: center;
+    border: 3px solid #ffffff;
+    padding: 33px 35px 30px 35px;
+    margin-top: 27px;
+}
+.card_title{
+    margin-top: 23px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.card_label{
+    font-size: 14px;
+    display: block;
+    margin-bottom: 7px;
+    margin-top: 20px;
+}
+.color_label{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.color_input{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    z-index: -9;
+}
+.color_label.white{
+    background-color:white;
+}
+.color_label.beige{
+    background-color:#f7b496;
+}
+.color_label.pink{
+    background-color:#ed366e;
+}
+.color_label.red{
+    background-color:red;
+}
+.color_label.blue{
+    background-color:blue;
+}
+.counter_input{
+    border: 2px solid #ffffff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color:#fff;
+    background-color:#292929;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.counter_button{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color:#fff;
+    background-color:#292929;
+    border:none;
+}
+.card_button{
+    font-size: 14px;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.more{
+    font-size: 14px;
+    color:#f24841;
+    display: block;
+    text-align: center;
+    margin-top: 39px;
+    padding: 10px;
+}
+.more:after{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 4px;
+    margin-left: 14px;
+    vertical-align: middle;
+    background: url(../img/Фигура_6.svg) no-repeat center;
+}
+.offer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+.offer_link{
+    text-transform: uppercase;
+    color:#fff;
+    display: block;
+    font-size: 30px;
+    margin-bottom: 65px;
+}
+.offer_label{
+    display: block;
+    margin-bottom: 22px;
+    font-size: 14px;
+}
+.offer_phone{
+    font-size: 36px;
+    text-decoration: none;
+    color:#fff;
+}
+.footer_menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 33px;
+}
+.footer_menu_link{
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.footer_menu_item{
+    margin-right: 30px;
+}
+.social{
+    font-size: 16px;
+}
+.footer_label{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.footer_info{
+    text-align: right;
+}
+.footer_phone{
+    text-decoration: none;
+    color:#fff;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 12px;
+}
+.modal{
+    display: none;
+}
+.modal_title{
+    color: #292929;
+}
+.modal_input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+.modal_button{
+    width: 100%;
+}
+@media (max-width: 768px){
+    .header{
+        text-align: center;
+    }
+    .header_contacts{
+        text-align: center;
+    }
+    .hero{
+        padding-top: 50px;
+    }
+    .hero_title{
+        font-size: 24px;
+        margin-bottom: 20px;
+        line-height: 1.6;
+    }
+    .hero_discription{
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .button{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .colors{
+        min-width: 200px;
+        margin: auto;
+    }
+    .card_label{
+        margin: 20px auto;
+        display: block;
+    }
+    .footer_info{
+        text-align: left;
+    }
+}
+@media (max-width:576px){
+    .offer,
+    .footer_info,
+    .offer_title {
+        text-align: left;
+    }
+}
